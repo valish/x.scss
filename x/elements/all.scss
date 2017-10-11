@@ -14,15 +14,25 @@ $header-height: 80px;
   display: flex;
   height: $header-height;
   &-logo {
+    align-items: center;
+    display: flex;
     font-family: monospace;
     font-size: 18px;
     font-weight: 600;
+    img {
+      height: 34px;
+      margin-right: 21px;
+    }
   }
   &-navigation {
+    align-items: center;
+    display: flex;
+    font-family: monospace;
     margin-left: auto;
     a {
       color: inherit;
       text-decoration: none;
+      margin-right: 18px;
     }
   }
   &--dark {
@@ -42,14 +52,21 @@ $header-height: 80px;
 
 .x-masthead {
   background: $grey-light;
-  height: 260px;
+  min-height: 420px;
   padding: 5% 0;
   &--dark {
-    background: $grey-dark;
+    background: #1e2224;
     color: #fff;
   }
   &-callout {
     font-size: 28px;
-    max-width: 50%;
+    line-height:1.4em;
+    max-width: 620px;
   }
+}
+
+.x-ground {
+  background: linear-gradient(#151819, #0c0e0f);
+  color: #fff;
+  min-height: 600px;
 }
