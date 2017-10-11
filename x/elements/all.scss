@@ -1,0 +1,55 @@
+/*
+
+  X Elements
+  ~~~~~~~~~~
+
+*/
+
+@import '../global/all';
+
+$header-height: 80px;
+
+.x-header {
+  align-items: center;
+  display: flex;
+  height: $header-height;
+  &-logo {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &-navigation {
+    margin-left: auto;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+  &--dark {
+    background: $grey-dark-base;
+    color: #fff;
+  }
+  &--fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.has-fixed-header {
+  padding-top: $header-height;
+}
+
+.x-masthead {
+  background: $grey-light;
+  height: 260px;
+  padding: 5% 0;
+  &--dark {
+    background: $grey-dark;
+    color: #fff;
+  }
+  &-callout {
+    font-size: 28px;
+    max-width: 50%;
+  }
+}

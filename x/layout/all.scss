@@ -1,0 +1,18 @@
+/*
+
+  X Layouts
+  ~~~~~~~~~
+
+*/
+
+@import '../global/all';
+
+.x-container {
+  margin: 0 auto;
+  max-width: $container--wide;
+  padding: 0 2.5%;
+  &--flex {
+    display: flex;
+    width: 100%;
+  }
+}

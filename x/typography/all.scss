@@ -1,0 +1,22 @@
+/*
+
+  Comma X Typography
+  ~~~~~~~~~~~~~~~~~~
+
+*/
+
+$baseFontSize: 18;
+$baseLineHeight: 1.125;
+$leading: $baseLineHeight * 1rem;
+$scale: 1.214;
+
+html {
+    font-family: 'OpenSans', sans-serif;
+    font-size: $baseFontSize / 16 * 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+}

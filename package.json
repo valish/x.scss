@@ -1,0 +1,11 @@
+{
+  "name": "x",
+  "version": "0.0.1",
+  "description": "x ui theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
