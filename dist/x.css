@@ -245,8 +245,8 @@ h6 {
 
 p {
   line-height: 1.525rem;
-  margin-top: 1.525rem;
-  margin-bottom: 0; }
+  margin-bottom: 1.525rem;
+  margin-top: 0; }
 
 /*
 
@@ -1654,10 +1654,6 @@ p {
   min-height: 600px; }
   .x-ground p {
     color: #B8C0C4; }
-  .x-ground-lime {
-    background: lime; }
-  .x-ground-pink {
-    background: hotpink; }
 
 /*
 

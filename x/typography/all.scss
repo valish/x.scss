@@ -44,6 +44,6 @@ h6 {
 
 p {
   line-height: $leading;
-  margin-top: $leading;
-  margin-bottom: 0;
+  margin-bottom: $leading;
+  margin-top: 0;
 }
