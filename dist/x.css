@@ -4,7 +4,7 @@
   X
   ~
 
-  :copyright: (c) 2017 comma.ai
+  :copyright: (c) 2017, by comma.ai
   :license: See LICENSE for more details
   :source: https://github.com/commaai/comma-x
 
@@ -1643,10 +1643,6 @@ p {
   .x-masthead--dark {
     background: #1e2224;
     color: #fff; }
-  .x-masthead-callout {
-    font-size: 28px;
-    line-height: 1.4em;
-    max-width: 620px; }
 
 .x-ground {
   background: linear-gradient(#151819, #0c0e0f);

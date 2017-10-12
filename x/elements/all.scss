@@ -7,8 +7,6 @@
 
 @import '../global/all';
 
-$header-height: 80px;
-
 .x-header {
   align-items: center;
   display: flex;
@@ -57,11 +55,6 @@ $header-height: 80px;
   &--dark {
     background: #1e2224;
     color: #fff;
-  }
-  &-callout {
-    font-size: 28px;
-    line-height:1.4em;
-    max-width: 620px;
   }
 }
 
