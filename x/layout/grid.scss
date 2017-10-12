@@ -1,11 +1,11 @@
 // X Grid
 // ~~~~~~
 
-$xg-gridName:   x-grid !default;
-$xg-colName:   x-col !default;
+$xg-gridName: x-grid !default;
+$xg-colName: x-col !default;
 $xg-attributeName: class !default;
-$xg-gutter:    1rem !default; // Total left + right
-$xg-gutter-vertical:    1rem !default;
+$xg-gutter: 1rem !default; // Total left + right
+$xg-gutter-vertical: 1rem !default;
 
 $xg-mq-list: (
   lg: "screen and (max-width: 80em)", // max 1280px
@@ -223,9 +223,7 @@ $xgp_col-11-12: (100%/11);
   padding: 0;
 }
 
-/************************
-    HELPERS SUFFIXES
-*************************/
+// HELPERS SUFFIXES
 // FOR GRID
 [#{$xg-attributeName}*="#{$xg-gridName}-"]{
 // No spacing between cols : noGutter

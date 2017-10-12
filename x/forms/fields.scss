@@ -109,25 +109,25 @@
 
 }
 
-// .x-field-select {
-//   position: relative;
-//   select {
-//     background: $grey-filter;
-//     color: $grey-text-lighter;
-//     cursor: pointer;
-//     font-size: 12px;
-//     font-weight: 600;
-//     -webkit-appearance: none;
-//   }
-//   &:after {
-//     color: $grey-text-lighter;
-//     content: $fa-var-chevron-down;
-//     display: block;
-//     font-family: 'FontAwesome';
-//     font-size: 12px;
-//     position: absolute;
-//     pointer-events: none;
-//     line-height: $input-height;
-//     right: 13px;
-//   }
-// }
+.x-field-select {
+  position: relative;
+  select {
+    background: $grey-filter;
+    color: $grey-text-lighter;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    -webkit-appearance: none;
+  }
+  &:after {
+    color: $grey-text-lighter;
+    content: $fa-var-chevron-down;
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    position: absolute;
+    pointer-events: none;
+    line-height: $input-height;
+    right: 13px;
+  }
+}

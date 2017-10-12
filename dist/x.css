@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 
   X
@@ -285,9 +286,6 @@ p {
   margin: 0;
   padding: 0; }
 
-/************************
-    HELPERS SUFFIXES
-*************************/
 [class*="x-grid-"][class*="-noGutter"] {
   margin: 0; }
   [class*="x-grid-"][class*="-noGutter"] > [class~="x-col"],
@@ -1791,6 +1789,26 @@ p {
       cursor: default;
       opacity: .9;
       pointer-events: none; }
+
+.x-field-select {
+  position: relative; }
+  .x-field-select select {
+    background: #EEEFF0;
+    color: #A3ABB2;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    -webkit-appearance: none; }
+  .x-field-select:after {
+    color: #A3ABB2;
+    content: "";
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    position: absolute;
+    pointer-events: none;
+    line-height: 42px;
+    right: 13px; }
 
 .xu-mt-0 {
   margin-top: 0; }

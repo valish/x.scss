@@ -2,11 +2,7 @@
 // ~~~~~~~~~
 
 @import 'colors';
-
-// Colors
-$grey-dark-base: #0c0e0f;
-$grey-dark: #151819;
-$grey-light: #eeeff0;
+@import '../../node_modules/font-awesome/scss/variables';
 
 // Layouts
 $container--wide: 1240px;
