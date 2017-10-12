@@ -6,7 +6,7 @@
 */
 
 $baseFontSize: 18;
-$baseLineHeight: 1.125;
+$baseLineHeight: 1.525;
 $leading: $baseLineHeight * 1rem;
 $scale: 1.214;
 
@@ -18,7 +18,18 @@ html {
 
 h1 {
   font-size: 42px;
-  font-weight: 600;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
 }
 
 h1,
@@ -28,4 +39,11 @@ h4,
 h5,
 h6 {
   margin-top: 0;
+  font-weight: 600;
+}
+
+p {
+  line-height: $leading;
+  margin-top: $leading;
+  margin-bottom: 0;
 }

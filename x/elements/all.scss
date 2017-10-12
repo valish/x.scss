@@ -69,4 +69,13 @@ $header-height: 80px;
   background: linear-gradient(#151819, #0c0e0f);
   color: #fff;
   min-height: 600px;
+  p {
+    color: #B8C0C4;
+  }
+  &-lime {
+    background: lime;
+  }
+  &-pink {
+    background: hotpink;
+  }
 }

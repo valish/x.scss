@@ -1,6 +1,8 @@
 // X Globals
 // ~~~~~~~~~
 
+@import 'colors';
+
 // Colors
 $grey-dark-base: #0c0e0f;
 $grey-dark: #151819;
@@ -8,3 +10,23 @@ $grey-light: #eeeff0;
 
 // Layouts
 $container--wide: 1240px;
+
+// Input Fields
+$input-background: #fff;
+$input-border-color: #ddd;
+$input-border-color--focused: #ccc;
+$input-radius: 100px;
+$input-height: 42px;
+$input-height--medium: 50px;
+$input-height--large: 55px;
+$input-height--jumbo: 63px;
+$input-placeholder-color: #ccc;
+
+// Buttons
+$button-background: $grey-button;
+$button-background--blue: $blue-real;
+$button-background--green: $green-button;
+$button-background--red: $red-button;
+$button-border-color: transparent;
+$button-font-family: monospace;
+$button-text-color: #fff;

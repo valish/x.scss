@@ -1,0 +1,133 @@
+// X Fields
+// ~~~~~~~~
+
+@import '../global/all';
+
+.x-field {
+  display: flex;
+  width: 100%;
+
+  margin-bottom: 15px; // temp
+
+  // Text Inputs
+  // ~~~~~~~~~~~
+  input[type='text'],
+  input[type='number'],
+  textarea,
+  select {
+    background: $input-background;
+    border: 1px solid $input-border-color;
+    border-radius: $input-radius;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    height: $input-height;
+    outline: none;
+    padding: 0 13px;
+    transition-duration: .1s;
+    width: 100%;
+    &:focus {
+      border-color: $input-border-color--focused;
+    }
+    &::placeholder {
+      color: $input-placeholder-color;
+    }
+  }
+
+  // Button Inputs
+  // ~~~~~~~~~~~~~
+  button,
+  input[type='button'],
+  input[type='submit'],
+  .x-button {
+    background: $button-background;
+    border: 1px solid $button-border-color;
+    border-radius: $input-radius;
+    color: $button-text-color;
+    cursor: pointer;
+    font-family: $button-font-family;
+    font-weight: 600;
+    height: $input-height;
+    outline: none;
+    transition-duration: .2s;
+    width: 100%;
+    i {
+      padding: 0 8px;
+    }
+    &.x-button--standard {
+      font-size: 14px;
+      padding: 0 18px;
+      width: auto;
+    }
+    &.x-button--medium {
+      font-size: 14px;
+      height: $input-height--medium;
+    }
+    &.x-button--large {
+      font-size: 16px;
+      height: $input-height--large;
+    }
+    &.x-button--jumbo {
+      font-size: 18px;
+      height: $input-height--jumbo;
+    }
+    &.x-button--transparent {
+      background: transparent;
+      border-color: transparent;
+      color: inherit;
+    }
+    &.x-button--disabled {
+      opacity: 0.3;
+    }
+    &.x-button--outline-dark {
+      background: transparent;
+      border-width: 2px;
+      border-color: $emerald-dark;
+      color: $emerald-dark;
+    }
+    &.x-button--outline-white {
+      background: transparent;
+      border-color: rgba(255, 255, 255, .3);
+      color: rgba(255, 255, 255, .7);
+      &:hover {
+        border-color: rgba(255, 255, 255, .5);
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+    &.x-button--white {
+      background: #fff;
+      color: $emerald-dark;
+    }
+    &.x-button--blue {
+      background: $button-background--blue;
+    }
+    &.x-button--loading {
+        cursor: default;
+        opacity: .9;
+        pointer-events: none;
+    }
+  }
+
+}
+
+// .x-field-select {
+//   position: relative;
+//   select {
+//     background: $grey-filter;
+//     color: $grey-text-lighter;
+//     cursor: pointer;
+//     font-size: 12px;
+//     font-weight: 600;
+//     -webkit-appearance: none;
+//   }
+//   &:after {
+//     color: $grey-text-lighter;
+//     content: $fa-var-chevron-down;
+//     display: block;
+//     font-family: 'FontAwesome';
+//     font-size: 12px;
+//     position: absolute;
+//     pointer-events: none;
+//     line-height: $input-height;
+//     right: 13px;
+//   }
+// }

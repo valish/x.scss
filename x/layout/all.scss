@@ -7,6 +7,8 @@
 
 @import '../global/all';
 
+@import 'grid';
+
 .x-container {
   margin: 0 auto;
   max-width: $container--wide;

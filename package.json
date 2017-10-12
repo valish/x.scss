@@ -1,11 +1,14 @@
 {
   "name": "x",
   "version": "0.0.1",
-  "description": "x ui theme",
+  "description": "x ui kit",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
