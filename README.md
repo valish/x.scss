@@ -1,7 +1,7 @@
 # X CSS Library
 
 ## install:
-`npm install --save https://github.com/valish/x.css`
+`npm install --save x.scss`
 
 ## use:
-`@import 'x.css';`
+`@import '~x.scss';`
