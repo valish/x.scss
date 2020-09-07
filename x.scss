@@ -3,35 +3,17 @@
   X
   ~
 
-  :copyright: (c) 2017, by comma.ai
+  :copyright: (c) 2020, vali.sh
   :license: See LICENSE for more details
-  :source: https://github.com/commaai/comma-x
+  :source: https://github.com/valish/x.css
 
 */
 
-// Character encoding
 @charset 'UTF-8';
 
-// Normalize
-@import 'x/vendor/normalize';
-
-// Base
-@import 'x/base/all';
-
-// Globals
 @import 'x/global/all';
-
-// Typography
-@import 'x/typography/all';
-
-// Layouts
+@import 'x/base/all';
 @import 'x/layout/all';
-
-// Elements
 @import 'x/elements/all';
-
-// Forms
 @import 'x/forms/all';
-
-// Utilities
 @import 'x/utils/all';

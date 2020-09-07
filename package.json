@@ -1,14 +1,33 @@
 {
-  "name": "comma-x",
-  "version": "0.0.1",
-  "description": "x ui kit",
-  "main": "index.js",
+  "name": "x.css",
+  "version": "0.2.0",
+  "description": "css library",
+  "main": "x.scss",
+  "unpkg": "dist/x.min.css",
   "scripts": {
-    "test": "test"
+    "build-autoprefix": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"cover 99.5%\" -r dist/*.css",
+    "build-dist": "node-sass --output-style expanded --source-map true x.scss dist/x.css && node-sass --source-map true --output-style compressed x.scss dist/x.min.css",
+    "build": "npm run build-dist && npm run build-autoprefix",
+    "css-lint": "stylelint **/*.scss"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "valish <andrew@vali.sh>",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "scss",
+    "framework",
+    "ui",
+    "frontend"
+  ],
   "dependencies": {
     "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "postcss-cli": "^7.1.2",
+    "stylelint": "^13.7.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
   }
 }

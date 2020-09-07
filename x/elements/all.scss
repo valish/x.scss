@@ -1,68 +1,7 @@
-/*
+// X Elements
+// ~~~~~~~~~~
 
-  X Elements
-  ~~~~~~~~~~
-
-*/
-
-@import '../global/all';
-
-.x-header {
-  align-items: center;
-  display: flex;
-  height: $header-height;
-  &-logo {
-    align-items: center;
-    display: flex;
-    font-family: monospace;
-    font-size: 18px;
-    font-weight: 600;
-    img {
-      height: 34px;
-      margin-right: 21px;
-    }
-  }
-  &-navigation {
-    align-items: center;
-    display: flex;
-    font-family: monospace;
-    margin-left: auto;
-    a {
-      color: inherit;
-      text-decoration: none;
-      margin-right: 18px;
-    }
-  }
-  &--dark {
-    background: $grey-dark-base;
-    color: #fff;
-  }
-  &--fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-}
-
-.has-fixed-header {
-  padding-top: $header-height;
-}
-
-.x-masthead {
-  background: $grey-light;
-  min-height: 420px;
-  padding: 5% 0;
-  &--dark {
-    background: #1e2224;
-    color: #fff;
-  }
-}
-
-.x-ground {
-  background: linear-gradient(#151819, #0c0e0f);
-  color: #fff;
-  min-height: 600px;
-  p {
-    color: #B8C0C4;
-  }
-}
+@import 'ground';
+@import 'header';
+@import 'masthead';
+@import 'shadowbox';
